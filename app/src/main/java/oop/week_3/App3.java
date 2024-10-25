@@ -8,7 +8,7 @@ public class App3 {
         Doctor dt3 = new Doctor("Priyagung Makmur", "Orolaryngology");
 
         // Create 3 Patient objects
-        Patient pt1 = new Patient("Adi Bahri", 25);
+        Patient pt1 = new Patient("Adi Bahri", 25); 
         Patient pt2 = new Patient("Adam Rafif", 30);
         Patient pt3 = new Patient("Alif Taufiq", 40);
 
