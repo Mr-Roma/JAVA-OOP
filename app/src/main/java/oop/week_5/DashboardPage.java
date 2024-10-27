@@ -9,7 +9,7 @@ public class DashboardPage extends WebPage implements Loginable{
         this.loggedUsername = input;
         System.out.println(loggedUsername + " has successfully logged in to the dashboard page");
     }
-    
+      
     protected void showMainPage() {
         if (loggedUsername == null) {
             System.out.println("Access denied for guest user");

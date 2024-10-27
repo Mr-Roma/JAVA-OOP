@@ -1,14 +1,14 @@
 package oop.week_5;
 
 public class WebPage {
-    protected String webTitle;
+    private  String webTitle;
     protected String loggedUsername;
     
     public WebPage(String title) {
         this.webTitle = title;
         this.loggedUsername = null;
     }
-    
+     
     public void showHeader() {
         System.out.println("##########################");
         System.out.println("#       " + webTitle + "       #");

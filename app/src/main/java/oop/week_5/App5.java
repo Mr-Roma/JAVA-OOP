@@ -24,6 +24,6 @@ public class App5 {
         homePage.showMainPage();
         System.out.println("\n");
         dashboardPage.showMainPage();
-    }
+    } 
 }
 
