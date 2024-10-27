@@ -1,6 +1,6 @@
 package oop.week_5;
 
-public class HomePage extends WebPage {
+public class HomePage extends WebPage implements  Loginable{
     public HomePage(String title) {
         super(title);
     }

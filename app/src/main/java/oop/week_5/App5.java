@@ -1,5 +1,9 @@
 package oop.week_5;
 
+interface Loginable {
+    void login(String input);
+}
+
 public class App5 {
     public static void main(String[] args) {
         // Test scenario
@@ -14,8 +18,8 @@ public class App5 {
         
         // After login
         System.out.println("\n=== After Login ===");
-        homePage.login("TestUser");
-        dashboardPage.login("TestUser");
+        homePage.login("Romario");
+        dashboardPage.login("Romario");
         System.out.println("\n");
         homePage.showMainPage();
         System.out.println("\n");

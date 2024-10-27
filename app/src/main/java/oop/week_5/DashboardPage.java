@@ -1,6 +1,6 @@
 package oop.week_5;
 
-public class DashboardPage extends WebPage {
+public class DashboardPage extends WebPage implements Loginable{
     public DashboardPage(String title) {
         super(title);
     }
